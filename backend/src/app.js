@@ -14,6 +14,7 @@ const app = express()
 const allowedOrigins = [
   'http://127.0.0.1:5173',
   'http://localhost:5173',
+  'https://t-drive-8c6p.onrender.com/',
   ...(process.env.CLIENT_ORIGIN ? process.env.CLIENT_ORIGIN.split(',') : []),
 ]
 
