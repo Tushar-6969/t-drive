@@ -1,3 +1,4 @@
+// ensure env file is present 
 import 'dotenv/config'
 import cors from 'cors'
 import express from 'express'
